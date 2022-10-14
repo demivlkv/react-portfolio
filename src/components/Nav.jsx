@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import Logo from '../assets/logo.png'
 
 const Nav = () => {
+  // toggle navbar
+  const [nav, setNav] = useState(false);
+  const toggleNavbar = () => setNav(!nav);
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1c2541] text-gray-300">
       <div>
@@ -18,12 +22,12 @@ const Nav = () => {
       </ul>
 
       {/* HAMBURGER MENU */}
-      <div className="md:hidden z-10">
-        <FiMenu />
+      <div onClick={toggleNavbar} className="md:hidden z-10">
+        {!nav ? <FiMenu /> : <FiX />}
       </div>
 
       {/* MOBILE MENU */}
-      <ul className="hidden absolute top-0 left-0 w-full h-screen bg-[#1c2541] flex flex-col justify-center items-center">
+      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1c2541] flex flex-col justify-center items-center"}>
           <li className="py-6 text-4xl">About</li>
           <li className="py-6 text-4xl">Portfolio</li>
           <li className="py-6 text-4xl">Contact</li>
