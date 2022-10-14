@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;600&family=Jost:wght@200;300;400;500;700&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Jost];
+    }
+
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
