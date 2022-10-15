@@ -8,7 +8,7 @@ const Nav = () => {
   const toggleNavbar = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1c2541] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4">
       <div>
         <a href="/"><img src={Logo} alt="DH Logo" style={{ width: '50px' }} /></a>
       </div>

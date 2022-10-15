@@ -6,7 +6,9 @@
 
 @layer base {
     body {
+        @apply bg-[#1c2541];
         @apply font-[Jost];
+        @apply text-gray-300;
     }
 
     li {
