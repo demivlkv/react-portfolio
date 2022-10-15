@@ -12,7 +12,7 @@ const Home = () => {
                 I am a software engineer with a passion for technologies. I love to build and design things like web applications, <a href="https://www.tokio-ramen.com/" target="_blank">branding for local businesses</a>, and even <a href="https://cargocollective.com/demihayashi/Propagation" target="_blank">sculptures</a>.
             </p>
             <div>
-                <button className="text-[white] group w-[154px] border-2 rounded pl-6 py-3 my-2 flex items-center hover:bg-[#6fffe92b] hover:border-[#6fffe9] hover:transition-all">
+                <button className="text-[white] group w-[154px] border-2 rounded pl-6 py-3 my-2 flex items-center hover:bg-[#6fffe92b] hover:text-[#6fffe9] hover:border-[#bbf7ee] hover:transition-all">
                     View Works
                     <span className="group-hover:ml-1 duration-300">
                         <FiChevronsRight className="ml-2" />
