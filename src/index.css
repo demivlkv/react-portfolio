@@ -15,6 +15,26 @@
         @apply px-4;
         @apply cursor-pointer;
     }
+
+    a {
+        @apply text-[#6fffe9];
+        @apply transition-all ease-in;
+    }
+
+    a:hover {
+        @apply text-[#bbf7ee];
+        @apply border-b-2;
+        @apply border-[#6fffe9];
+        @apply transition-all ease-in;
+    }
+
+    button {
+        @apply transition-all ease-in;
+    }
+
+    button:hover {
+        @apply transition-all ease-in;
+    }
 }
 
 .content-div {
@@ -25,5 +45,6 @@
 }
 
 .content-div:hover {
-    background-image: linear-gradient(to right, #53c8c6, #6fffe9) !important;
+    background-image: linear-gradient(#5bc0be, #6fffe9) !important;
+    cursor: pointer;
 }

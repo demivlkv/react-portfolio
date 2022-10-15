@@ -9,7 +9,7 @@ import TarotReader from '../assets/screenshots/tarot-reader.png';
 import TeamProfileGen from '../assets/screenshots/team-profile-generator.png';
 import TechBlog from '../assets/screenshots/tech-blog.png';
 import WeatherDash from '../assets/screenshots/weather-dashboard.png';
-import { FiGithub, FiLink } from 'react-icons/fi';
+import { FiGithub, FiLink, FiYoutube } from 'react-icons/fi';
 
 const Portfolio = () => {
   return (
@@ -36,11 +36,11 @@ const Portfolio = () => {
                             Book Nook
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiLink size={20} /></button>
+                            <a href="https://booknook-stars.herokuapp.com/" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
                             </a>
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiGithub size={20} /></button>
+                            <a href="https://github.com/demivlkv/book-nook" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
                             </a>
                         </div>
                     </div>
@@ -58,11 +58,11 @@ const Portfolio = () => {
                             Tech Blog
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiLink size={20} /></button>
+                            <a href="https://frozen-sierra-30429.herokuapp.com/" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
                             </a>
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiGithub size={20} /></button>
+                            <a href="https://github.com/demivlkv/tech-blog" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
                             </a>
                         </div>
                     </div>
@@ -80,11 +80,11 @@ const Portfolio = () => {
                             Find-A-Story
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiLink size={20} /></button>
+                            <a href="https://demivlkv.github.io/Find-A-Story" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
                             </a>
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiGithub size={20} /></button>
+                            <a href="https://github.com/demivlkv/Find-A-Story" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
                             </a>
                         </div>
                     </div>
@@ -102,11 +102,11 @@ const Portfolio = () => {
                             Weather Dashboard
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiLink size={20} /></button>
+                            <a href="https://demivlkv.github.io/weather-dashboard" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
                             </a>
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiGithub size={20} /></button>
+                            <a href="https://github.com/demivlkv/weather-dashboard" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
                             </a>
                         </div>
                     </div>
@@ -124,11 +124,11 @@ const Portfolio = () => {
                             Note Taker
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiLink size={20} /></button>
+                            <a href="https://protected-dusk-42650.herokuapp.com/" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
                             </a>
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiGithub size={20} /></button>
+                            <a href="https://github.com/demivlkv/note-taker" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
                             </a>
                         </div>
                     </div>
@@ -136,21 +136,24 @@ const Portfolio = () => {
                 
                 {/* CARD ITEM */}
                 <div 
-                    style={{ backgroundImage: `url(${EmployeeTracker})` }}
+                    style={{ backgroundImage: `url(${TeamProfileGen})` }}
                     className="shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div"
                 >
                     
                     {/* HOVER EFFECTS */}
                     <div className="opacity-0 group-hover:opacity-100">
                         <span className="text-2xl font-medium text-white tracking-wider">
-                            Employee Tracker
+                            Team Profile Generator
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiLink size={20} /></button>
+                            <a href="https://demivlkv.github.io/team-profile-generator/dist/index.html" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
                             </a>
-                            <a href="/">
-                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b]"><FiGithub size={20} /></button>
+                            <a href="https://www.youtube.com/watch?v=Gt11yLpwtUE" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiYoutube size={20} /></button>
+                            </a>
+                            <a href="https://github.com/demivlkv/team-profile-generator" target="_blank" className="text-white hover:text-slate-300 hover:border-0">
+                                <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
                             </a>
                         </div>
                     </div>

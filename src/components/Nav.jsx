@@ -37,10 +37,10 @@ const Nav = () => {
       {/* SOCIAL ICONS */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[60px] h-[60px] flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/demivlkv" target="_blank"><FiGithub size={30} /></a></li>
-          <li className="w-[60px] h-[60px] flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="flex justify-between items-center w-full text-gray-300" href="https://www.linkedin.com/in/demihayashi/" target="_blank"><FiLinkedin size={30} /></a></li>
-          <li className="w-[60px] h-[60px] flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="flex justify-between items-center w-full text-gray-300" href="https://www.instagram.com/hii.demii/" target="_blank"><FiInstagram size={30} /></a></li>
-          <li className="w-[60px] h-[60px] flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="flex justify-between items-center w-full text-gray-300" href="mailto:hayashi.demi@gmail.com"><FiMail size={30} /></a></li>
+          <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-gray-300 hover:text-[#6fffe9] hover:border-0" href="https://github.com/demivlkv" target="_blank"><FiGithub size={30} /></a></li>
+          <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-gray-300 hover:text-[#6fffe9] hover:border-0" href="https://www.linkedin.com/in/demihayashi/" target="_blank"><FiLinkedin size={30} /></a></li>
+          <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-gray-300 hover:text-[#6fffe9] hover:border-0" href="https://www.instagram.com/hii.demii/" target="_blank"><FiInstagram size={30} /></a></li>
+          <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-gray-300 hover:text-[#6fffe9] hover:border-0" href="mailto:hayashi.demi@gmail.com"><FiMail size={30} /></a></li>
         </ul>
       </div>
     </div>
