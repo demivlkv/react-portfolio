@@ -35,7 +35,7 @@ const Project = () => {
         },
         {
             title: 'Team Profile Generator',
-            thumbnail: '/screenshots/note-taker.png',
+            thumbnail: '/screenshots/team-profile-generator.png',
             url: 'https://demivlkv.github.io/team-profile-generator/dist/index.html',
             github: 'https://github.com/demivlkv/team-profile-generator'
         }

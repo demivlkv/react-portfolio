@@ -62,13 +62,13 @@ const Contact = () => {
                         <FiAtSign style={{ color: '#6fffe9' }} size={20} />&nbsp;E-mail
                     </div>
                     <div className="inline-flex justify-end items-center">
-                        :&nbsp;<a href="mailto:hayashi.demi@gmail.com">hayashidemi@gmail.com</a>
+                        :&nbsp;<a href="mailto:hayashi.demi@gmail.com" className="inline border-transparent border-b-2">hayashidemi@gmail.com</a>
                     </div>
                     <div className="inline-flex items-center">
                         <FiGithub style={{ color: '#6fffe9' }} size={20} />&nbsp;GitHub
                     </div>
                     <div className="inline-flex justify-end items-center">
-                        :&nbsp;<a href="https://github.com/demivlkv" target="_blank">@demivlkv</a>
+                        :&nbsp;<a href="https://github.com/demivlkv" target="_blank" className="inline border-transparent border-b-2">@demivlkv</a>
                     </div>
                     <div className="inline-flex items-center">
                         <IoMdGlobe style={{ color: '#6fffe9' }} size={20} />&nbsp;Languages
