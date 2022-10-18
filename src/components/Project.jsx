@@ -48,7 +48,7 @@ const Project = () => {
 
             <div 
                 style={{ backgroundImage: `url(${project.thumbnail})` }}
-                className="shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div"
+                className="shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto project"
             >
                     
                 <div className="opacity-0 group-hover:opacity-100">

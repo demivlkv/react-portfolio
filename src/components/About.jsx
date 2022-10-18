@@ -4,15 +4,15 @@ import { FiFastForward } from 'react-icons/fi';
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen">
-        <div className="flex flex-col justify-center items-center w-full h-full">
+    <div name="about" className="w-full h-full">
+        <div className="flex flex-col justify-center items-center py-4 w-full h-full">
             <div className="max-w-screen-lg w-full grid grid-cols-2 gap-8">
                 <div className="sm:text-right pb-8 pl-4">
-                    <p className="text-5xl font-medium inline border-b-4 border-[#6fffe9]">About</p>
+                    <h2 className="text-5xl font-medium inline border-b-4 border-[#6fffe9]">About</h2>
                 </div>
                 <div></div>
             </div>
-            <div className="max-w-screen-lg w-full h-auto grid sm:grid-cols-2 gap-8 px-4">
+            <div className="max-w-screen-lg w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="mx-auto max-w-lg pt-4 px-6">
                     <img src={Avatar} alt="Demi's Avatar" class="shadow rounded" style={{ width: '240px' }} />
                 </div>
