@@ -17,7 +17,6 @@ const Header = (props) => {
                 setCurrentPage={setCurrentPage}
             />
 
-
             {/* SOCIAL MEDIA ICONS */}
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>

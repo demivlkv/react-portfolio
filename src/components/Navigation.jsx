@@ -6,7 +6,7 @@ const Navigation = (props) => {
   const { currentPage, setCurrentPage } = props;
   const [nav, setNav] = useState(false);
 
-  // toggle navbar according to screen size
+  // show or hide navbar on click
   const toggleNavbar = () => setNav(!nav);
 
   return (
@@ -22,21 +22,19 @@ const Navigation = (props) => {
         ))}
       </ul>
 
-
       <div onClick={toggleNavbar} className="md:hidden z-10">
-        {!nav ? <FiMenu /> : <FiX />}
+        {!nav ? <FiMenu size={30} /> : <FiX size={30} />}
+
+        <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1c2541d9] flex flex-col justify-center items-center"}>
+          {pages.map((page) => (
+            <li onClick={toggleNavbar} className={
+              currentPage.page === page ? 'active' : 'my-1'
+              } key={page} >
+              <span onClick={() => setCurrentPage(page)}>{page}</span>
+            </li>
+          ))}
+        </ul>
       </div>
-
-
-      {/* <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1c2541] flex flex-col justify-center items-center"}>
-      {pages.map((page) => (
-          <li className={
-            props.currentPage.page === page ? 'active' : 'my-2'
-            } key={page} >
-            <span onClick={() => props.setCurrentPage(page)}>{page}</span>
-          </li>
-        ))}
-      </ul> */}
 
     </div>
   );
