@@ -3,7 +3,8 @@ import { FiMenu, FiX } from 'react-icons/fi';
 
 const Navigation = (props) => {
   const pages = ['home', 'about', 'portfolio', 'contact', 'resume'];
-  const [nav, setNav, currentPage, setCurrentPage] = useState(false);
+  const { currentPage, setCurrentPage } = props;
+  const [nav, setNav] = useState(false);
 
   // toggle navbar according to screen size
   const toggleNavbar = () => setNav(!nav);
@@ -13,10 +14,10 @@ const Navigation = (props) => {
 
       <ul className="hidden md:flex">
         {pages.map((page) => (
-          <li className={`mx-1" ${
-            currentPage.page === page && 'active'
-            }`} key={page} >
-            <a href="#" onClick={() => setCurrentPage(page)}>{page}</a>
+          <li className={
+            props.currentPage.page === page ? 'active' : 'mx-2'
+            } key={page} >
+            <span onClick={() => props.setCurrentPage(page)}>{page}</span>
           </li>
         ))}
       </ul>
@@ -27,13 +28,15 @@ const Navigation = (props) => {
       </div>
 
 
-      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1c2541] flex flex-col justify-center items-center"}>
-          <li className="py-6 text-4xl">Home</li>
-          <li className="py-6 text-4xl">About</li>
-          <li className="py-6 text-4xl">Portfolio</li>
-          <li className="py-6 text-4xl">Contact</li>
-          <li className="py-6 text-4xl">Resume</li>
-      </ul>
+      {/* <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1c2541] flex flex-col justify-center items-center"}>
+      {pages.map((page) => (
+          <li className={
+            props.currentPage.page === page ? 'active' : 'my-2'
+            } key={page} >
+            <span onClick={() => props.setCurrentPage(page)}>{page}</span>
+          </li>
+        ))}
+      </ul> */}
 
     </div>
   );
