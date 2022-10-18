@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 function App() {
   const [currentPage, setCurrentPage] = useState('about');
 
+  // renders page accordingly via switch statement
   const renderPage = () => {
     switch (currentPage) {
         case 'home':
@@ -23,7 +24,7 @@ function App() {
         // case 'resume':
         //     return <Resume />
         default:
-            return null;
+            return <About />;
     };
   };
 

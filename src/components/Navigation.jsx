@@ -15,22 +15,26 @@ const Navigation = (props) => {
       <ul className="hidden md:flex">
         {pages.map((page) => (
           <li className={
-            props.currentPage.page === page ? 'active' : 'mx-2'
+            props.currentPage.page === page ? 'mx-2 active' : 'mx-2'
             } key={page} >
-            <span onClick={() => props.setCurrentPage(page)}>{page}</span>
+            <span onClick={() => props.setCurrentPage(page)} className={
+              props.currentPage === page ? 'mx-2 active' : 'mx-2 hover:text-[#6fffe9]'
+            }>{page}</span>
           </li>
         ))}
       </ul>
 
-      <div onClick={toggleNavbar} className="md:hidden z-10">
-        {!nav ? <FiMenu size={30} /> : <FiX size={30} />}
+      <div onClick={toggleNavbar} className="md:hidden z-999">
+        {!nav ? <FiMenu size={30} className="transition-all hover:text-[#6fffe9] hover:cursor-pointer" /> : <FiX size={30} className="transition-all hover:text-[#6fffe9] hover:cursor-pointer" />}
 
-        <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1c2541d9] flex flex-col justify-center items-center"}>
+        <ul className={!nav ? "hidden" : "absolute top-16 left-0 w-full bg-[#1c2541] flex flex-col justify-center items-center"}>
           {pages.map((page) => (
             <li onClick={toggleNavbar} className={
-              currentPage.page === page ? 'active' : 'my-1'
+              currentPage.page === page ? 'text-[#6fffe9]' : 'my-2'
               } key={page} >
-              <span onClick={() => setCurrentPage(page)}>{page}</span>
+            <span onClick={() => props.setCurrentPage(page)} className={
+              props.currentPage === page ? 'mx-2 active' : 'mx-2 hover:text-[#6fffe9]'
+            }>{page}</span>
             </li>
           ))}
         </ul>
