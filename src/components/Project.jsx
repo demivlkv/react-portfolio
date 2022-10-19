@@ -48,19 +48,19 @@ const Project = () => {
 
             <div 
                 style={{ backgroundImage: `url(${project.thumbnail})` }}
-                className="shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto project"
+                className="shadow-lg shadow-[#aaadb1] group container rounded flex justify-center items-center mx-auto project"
             >
                     
                 <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-medium text-white tracking-wider">
+                    <span className="text-2xl font-medium tracking-wider">
                         {project.title}
                     </span>
                     <div className="pt-8 text-center">
-                        <a href={project.url} target="_blank" className="text-white hover:text-slate-300 hover:border-0">
-                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiLink size={20} /></button>
+                        <a href={project.url} target="_blank" className="text-white hover:border-0">
+                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#94b0b3] hover:bg-[#d7fbeb]"><FiLink size={20} /></button>
                         </a>
-                        <a href={project.github} target="_blank" className="text-white hover:text-slate-300 hover:border-0">
-                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#3a506b] hover:bg-[#1c2541]"><FiGithub size={20} /></button>
+                        <a href={project.github} target="_blank" className="text-white hover:border-0">
+                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#94b0b3] hover:bg-[#d7fbeb]"><FiGithub size={20} /></button>
                         </a>
                     </div>
                 </div>

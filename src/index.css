@@ -6,9 +6,10 @@
 
 @layer base {
     body {
-        @apply bg-[#1c2541];
+        @apply bg-[#F9faf4];
         @apply font-[Jost];
-        @apply text-gray-300;
+        @apply text-[#6e7f81];
+        @apply text-base;
         @apply leading-loose;
     }
 
@@ -18,14 +19,23 @@
     }
 
     a {
-        @apply text-[#6fffe9];
+        @apply text-[#84d5bc];
         @apply transition-all ease-in;
     }
 
     a:hover {
-        @apply text-[#bbf7ee];
+        @apply text-[#94b0b3];
+        @apply transition-all ease-in;
+    }
+    a.home {
+        @apply text-[#84d5bc];
+        @apply transition-all ease-in;
+    }
+
+    a.home:hover {
+        @apply text-[#94b0b3];
         @apply border-b-2;
-        @apply border-[#6fffe9];
+        @apply border-[#9fdac7];
         @apply transition-all ease-in;
     }
 
@@ -46,10 +56,10 @@
 }
 
 .project:hover {
-    background-image: linear-gradient(#5bc0be, #6fffe9) !important;
+    background-image: linear-gradient(#9fdac7, #d7fbeb) !important;
     cursor: pointer;
 }
 
 .active {
-    color: #6fffe9 !important;
+    color: #9fdac7 !important;
 }
