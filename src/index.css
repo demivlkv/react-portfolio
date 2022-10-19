@@ -27,7 +27,7 @@
     }
 
     a:hover {
-        @apply text-[#94b0b3];
+        @apply text-[#c0e7db];
         @apply transition-all ease-in;
     }
     a.home {
@@ -36,7 +36,7 @@
     }
 
     a.home:hover {
-        @apply text-[#94b0b3];
+        @apply text-[#c0e7db];
         @apply border-b-2;
         @apply border-[#9fdac7];
         @apply transition-all ease-in;
