@@ -7,8 +7,8 @@ const Header = (props) => {
     const { currentPage, setCurrentPage } = props;
 
     return (
-        <nav>
-            <div className="sticky top-0 w-full flex justify-between items-center p-4 bg-[#1c2541]">
+        <nav className="mb-[70px]">
+            <div className="fixed top-0 w-full flex justify-between items-center p-4 bg-[#1c2541]">
                 <div>
                     <a href="/"><img src={Logo} alt="DH Logo" style={{ width: '50px' }} /></a>
                 </div>
