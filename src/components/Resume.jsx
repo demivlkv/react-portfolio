@@ -11,7 +11,7 @@ const Resume = () => {
                     <div className="sm:text-center pb-8 pl-4">
                         <h2 className="text-5xl font-medium inline border-b-4 border-[#d7fbeb]">CV</h2>
                     
-                        <button type="submit" className="text-[#84d5bc] group w-[170px] border-2 rounded mx-auto my-8 pl-6 py-2 flex items-center hover:bg-[#84d5bb2f] hover:text-[#94b0b3] hover:border-[#c1e2d8] hover:transition-all">
+                        <button type="submit" className="text-[#84d5bc] group w-[170px] border-2 rounded mx-auto my-8 pl-6 py-2 flex items-center hover:bg-[#84d5bb2f] hover:text-[#94b0b3] hover:border-[#c1e2d8] transition-all">
                             Download CV
                             <span className="group-hover:ml-1 duration-300">
                                 <FiChevronsRight className="ml-2" />

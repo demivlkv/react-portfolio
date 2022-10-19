@@ -8,7 +8,7 @@ const Header = (props) => {
 
     return (
         <nav className="mb-[70px]">
-            <div className="fixed top-0 w-full flex justify-between items-center p-4 bg-[#F9faf4]">
+            <div className="fixed top-0 z-50 w-full flex justify-between items-center p-4 bg-[#F9faf4]">
                 <div>
                     <a href="/"><img src={Logo} alt="DH Logo" style={{ width: '50px' }} /></a>
                 </div>

@@ -24,7 +24,7 @@ const Navigation = (props) => {
         ))}
       </ul>
 
-      <div onClick={toggleNavbar} className="md:hidden z-999">
+      <div onClick={toggleNavbar} className="md:hidden z-50">
         {!nav ? <FiMenu size={30} className="transition-all hover:text-[#9fdac7] hover:cursor-pointer" /> : <FiX size={30} className="transition-all hover:text-[#9fdac7] hover:cursor-pointer" />}
 
         <ul className={!nav ? "hidden" : "absolute top-16 left-0 w-full bg-[#F9faf4] flex flex-col justify-center items-center"}>

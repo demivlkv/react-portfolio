@@ -13,10 +13,10 @@ const About = () => {
             </div>
             <div className="max-w-screen-lg w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="mx-auto max-w-lg pt-4 px-6">
-                    <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#aaadb1] rounded" style={{ width: '240px' }} />
+                    <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#aaadb1] rounded opacity-70 grayscale-[50%] transition-all hover:opacity-100 hover:grayscale-0" style={{ width: '240px' }} />
                 </div>
                 <div>
-                    <p className="text-4xl text-[#9fdac7] font-medium pb-6">
+                    <p className="text-4xl text-[#9fdac7] font-semibold pb-6">
                         Nice to meet you, I'm Demi.
                     </p>
                     <p className="pb-6">
