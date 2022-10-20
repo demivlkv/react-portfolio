@@ -2,16 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;600&family=Jost:wght@200;300;400;500;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap');
 
 @layer base {
     body {
-        @apply bg-[#F9faf4];
-        /* @apply font-[Jost]; */
+        @apply bg-[#2e4057];
         @apply font-['Inter_Tight'];
-        @apply text-[#6e7f81];
+        @apply text-[#edf6f9];
         @apply text-base;
         @apply leading-loose;
     }
@@ -22,35 +19,45 @@
     }
 
     a {
-        @apply text-[#84d5bc];
+        @apply text-[#a2d3be];
         @apply transition-all ease-in;
     }
 
     a:hover {
-        @apply text-[#c0e7db];
+        @apply text-[#f27c61];
         @apply transition-all ease-in;
     }
     a.home {
-        @apply text-[#84d5bc];
+        @apply text-[#a2d3be];
         @apply transition-all ease-in;
     }
 
     a.home:hover {
-        @apply text-[#c0e7db];
-        @apply border-b-2;
-        @apply border-[#9fdac7];
+        @apply text-white;
+        @apply border-b-4;
+        @apply border-[#f27c61];
         @apply transition-all ease-in;
     }
 
+    h2 {
+        @apply inline;
+        @apply text-5xl;
+        @apply font-semibold;
+        @apply border-b-4;
+        @apply border-[#5e7089];
+    }
+
     button {
+        @apply text-[#a2d3be];
+        @apply font-['Source_Code_Pro'];
         @apply transition-all ease-in;
     }
 
     button:hover {
-        @apply transition-all ease-in;
+        @apply text-white;
     }
 }
 
 .active {
-    color: #9fdac7 !important;
+    color: #f27c61 !important;
 }

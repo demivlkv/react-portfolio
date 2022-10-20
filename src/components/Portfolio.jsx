@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full z-0">
 
             <div className="mb-8">
-                <h2 className="text-5xl font-medium inline border-b-4 border-[#d7fbeb]">Works</h2>
+                <h2>Works</h2>
             </div>
 
             <Project />
