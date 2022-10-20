@@ -42,6 +42,7 @@
     h2 {
         @apply inline;
         @apply text-5xl;
+        @apply text-[#8aa2a9];
         @apply font-semibold;
         @apply border-b-4;
         @apply border-[#5e7089];

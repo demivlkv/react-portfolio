@@ -82,7 +82,7 @@ const Contact = () => {
             {/* CONTACT FORM */}
             <div>
                 <form method="POST" action="https://getform.io/f/334ec745-eba1-4f48-a06a-ba6ee7e3fd13" id="contact-form" onSubmit={handleSubmit} className="flex flex-col justify-center max-w-[600px] w-full">
-                    <div class="w-[75%] mx-auto">
+                    <div class="w-[80%] mx-auto">
                         <label className="block text-[#f27c61] font-['Source_Code_Pro'] font-medium">Name:</label>
                         <input type="text" defaultValue={name} onBlur={handleChange} name="name" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
 
@@ -90,7 +90,7 @@ const Contact = () => {
                         <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
 
                         <label className="block text-[#f27c61] font-['Source_Code_Pro'] font-medium">Message:</label>
-                        <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
+                        <textarea name="message" defaultValue={message} onBlur={handleChange} rows="4" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
 
                         {errorMessage && (
                             <div>

@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className="max-w-screen-lg w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="mx-auto max-w-lg pt-4 px-6">
-                    <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#303336] rounded opacity-70 grayscale-[50%] transition-all hover:opacity-100 hover:grayscale-0" style={{ width: '240px' }} />
+                    <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#1c2025] rounded opacity-70 grayscale-[50%] transition-all hover:opacity-100 hover:grayscale-0" style={{ width: '240px' }} />
                 </div>
                 <div>
                     <p className="text-2xl text-[#f27c61] font-['Source_Code_Pro'] font-medium pb-6">

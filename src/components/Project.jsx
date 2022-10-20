@@ -57,7 +57,7 @@ const Project = () => {
         <div className="grid max-w-screen-lg h-auto mx-auto sm:grid-cols-2 md:grid-cols-2 gap-8">
 
             {projects.map((project) => (
-                <div className="max-w-md h-max aspect-auto overflow-hidden rounded-lg opacity-80 hover:opacity-100 transition-all bg-gray-800 shadow-lg shadow-[#303336] cursor-pointer">
+                <div className="max-w-md h-max aspect-auto overflow-hidden rounded-lg opacity-80 hover:opacity-100 transition-all bg-gray-800 shadow-lg shadow-[#1c2025] cursor-pointer">
 
                     <div class="relative group">
 

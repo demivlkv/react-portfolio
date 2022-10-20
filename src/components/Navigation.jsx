@@ -12,7 +12,7 @@ const Navigation = (props) => {
   return (
     <div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden font-['Source_Code_Pro'] md:flex">
         {pages.map((page) => (
           <li className={
             props.currentPage.page === page ? 'mx-2 active font-semibold' : 'mx-2 font-semibold transition-all'
@@ -24,7 +24,7 @@ const Navigation = (props) => {
         ))}
       </ul>
 
-      <div onClick={toggleNavbar} className="md:hidden z-50">
+      <div onClick={toggleNavbar} className="md:hidden font-['Source_Code_Pro'] z-50">
         {!nav ? <FiMenu size={30} className="transition-all hover:text-[#f27c61] hover:cursor-pointer" /> : <FiX size={30} className="transition-all hover:text-[#f27c61] hover:cursor-pointer" />}
 
         <ul className={!nav ? "hidden" : "absolute top-16 left-0 w-full bg-[#2e4057] flex flex-col justify-center items-center"}>
