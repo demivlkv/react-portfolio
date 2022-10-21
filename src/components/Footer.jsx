@@ -18,6 +18,16 @@ const Footer = () => {
         </ul>
       </div>
 
+      {/* DISPLAY SOCIAL MEDIA ICONS ON SIDE OVER 1024PX SCRN RES */}
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+            <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-[#8aa2a9] hover:text-[#f27c61] hover:border-0" href="https://github.com/demivlkv" target="_blank"><FiGithub size={30} /></a></li>
+            <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-[#8aa2a9] hover:text-[#f27c61] hover:border-0" href="https://www.linkedin.com/in/demihayashi/" target="_blank"><FiLinkedin size={30} /></a></li>
+            <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-[#8aa2a9] hover:text-[#f27c61] hover:border-0" href="https://www.instagram.com/hii.demii/" target="_blank"><FiInstagram size={30} /></a></li>
+            <li className="px-6 py-3 flex justify-between items-center ml-[5px] hover:ml-[10px] duration-300"><a className="text-[#8aa2a9] hover:text-[#f27c61] hover:border-0" href="mailto:hayashi.demi@gmail.com"><FiMail size={30} /></a></li>
+        </ul>
+      </div>
+
     </footer>
   );
 };
