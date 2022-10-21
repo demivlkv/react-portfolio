@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from './Navigation';
-import { FiGithub, FiLinkedin, FiInstagram, FiMail } from 'react-icons/fi';
 import Logo from '../assets/logo.png';
 
 const Header = (props) => {

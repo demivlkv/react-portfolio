@@ -1,8 +1,10 @@
 import React from 'react';
+import Animation from './Animation';
 import Project from './Project';
 
 const Portfolio = () => {
     return (
+    <Animation>
     <div name="portfolio" className="w-full md:h-full">
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full z-0">
             <div className="max-w-screen-lg w-full grid grid-cols-2">
@@ -16,6 +18,7 @@ const Portfolio = () => {
 
         </div>
     </div>
+    </Animation>
   );
 };
 

@@ -1,8 +1,10 @@
 import React from 'react';
+import Animation from './Animation';
 import Avatar from '../assets/avatar.png';
 
 const About = () => {
   return (
+    <Animation>
     <div name="about" className="w-full md:h-screen">
         <div className="flex flex-col justify-center items-center py-4 w-full h-full">
             <div className="max-w-screen-lg w-full grid grid-cols-2">
@@ -29,6 +31,7 @@ const About = () => {
             </div>
         </div>
     </div>
+    </Animation>
   );
 };
 

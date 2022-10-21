@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Animation from './Animation';
 import { validateEmail } from '../utils/helpers';
 import { FiGithub, FiAtSign, FiMapPin, FiChevronsRight } from 'react-icons/fi';
 import { IoMdGlobe } from 'react-icons/io';
@@ -38,6 +39,7 @@ const Contact = () => {
     };
 
     return (
+    <Animation>
     <div name="contact" className="w-full md:h-screen flex justify-center items-center mx-auto p-4">
         <div className="max-w-screen-lg w-full grid grid-cols-1 sm:grid-cols-2 gap-4">
         
@@ -110,6 +112,7 @@ const Contact = () => {
 
         </div>
     </div>
+    </Animation>
   );
 };
 
