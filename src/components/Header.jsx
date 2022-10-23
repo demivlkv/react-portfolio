@@ -13,7 +13,7 @@ const Header = (props) => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit="exit"
-                    transition={{ duration: 1 }}
+                    transition={{ delay: 1, duration: 1 }}
                 >
                     <a href="/"><img src={Logo} alt="DH Logo" style={{ width: '50px' }} /></a>
                 </motion.div>
@@ -22,7 +22,7 @@ const Header = (props) => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit="exit"
-                    transition={{ duration: 1 }}
+                    transition={{ delay: 1, duration: 1 }}
                 >
                     <Navigation
                         currentPage={currentPage}
