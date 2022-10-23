@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Animation from './Animation';
 import Avatar from '../assets/avatar.png';
 
@@ -14,9 +15,15 @@ const About = () => {
                 <div></div>
             </div>
             <div className="max-w-screen-lg w-full grid sm:grid-cols-2 gap-8 px-4">
-                <div className="mx-auto max-w-lg pt-4 px-6">
+                <motion.div 
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit="exit"
+                    transition={{ delay: 0.5, duration: 1 }}
+                    className="mx-auto max-w-lg pt-4 px-6"
+                >
                     <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#1c2025] rounded opacity-70 grayscale-[50%] transition-all hover:opacity-100 hover:grayscale-0" style={{ width: '240px' }} />
-                </div>
+                </motion.div>
                 <div>
                     <p className="text-2xl text-[#f27c61] font-['Source_Code_Pro'] font-medium pb-6">
                         Nice to meet you, I'm Demi.

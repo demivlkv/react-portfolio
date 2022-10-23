@@ -63,7 +63,7 @@ const container = {
             duration: 1,
             type: 'tween',
             delayChildren: 1,
-            staggerChildren: 0.5
+            staggerChildren: 0.3
         }
     }
 };
