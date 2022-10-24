@@ -2,7 +2,7 @@
 ## React Portfolio
 The intent for this project was to build an updated web developer portfolio utilizing React.js. This portfolio allows me to express myself as a full-stack software engineer to showcase my web applications and proficiencies.
 
-<p align="center">:sparkles: <a href="https://demivlkv.github.io/react-portfolio" target="_blank">Visit deployed application here</a> :sparkles:</p>
+<p align="center">:sparkles: <a href="https://demivlkv.github.io/react-portfolio">Visit deployed application here</a> :sparkles:</p>
 
 ![screenshot.png](/../main/src/assets/screenshot.png)
 
