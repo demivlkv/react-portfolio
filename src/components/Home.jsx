@@ -8,7 +8,7 @@ const Home = () => {
         <Animation>
             <div name="home" className="w-full h-screen">
                 <div className="max-w-screen-lg mx-auto px-16 flex flex-col justify-center h-full">
-                    <p className="text-3xl text-[#f27c61] font-['Source_Code_Pro']">Hello there, my name is</p>
+                    <p className="text-3xl text-[#f27c61] font-['Source_Code_Pro']">Hello, my name is</p>
                     <h1 className="text-5xl sm:text-7xl font-bold text-[#6f9283]">Demi Hayashi</h1>
                     <h1 className="text-5xl sm:text-7xl font-bold text-[#5e7089]">A full-stack web developer</h1>
                     <p className="text-[#8aa2a9] py-4 max-w-[700px]">
