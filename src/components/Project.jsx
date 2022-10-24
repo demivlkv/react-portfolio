@@ -5,7 +5,7 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const projects = [
     {
         title: 'Book Nook',
-        thumbnail: '/public/screenshots/book-nook.png',
+        thumbnail: '/images/book-nook.png',
         description: 'A collaborative effort to provide a platform for all parents to discuss books for their young readers',
         technologies: 'JavaScript / NodeJS / MySQL',
         url: 'https://booknook-stars.herokuapp.com/',
@@ -13,7 +13,7 @@ const projects = [
     },
     {
         title: 'Tech Blog',
-        thumbnail: '/public/screenshots/tech-blog.png',
+        thumbnail: '/images/tech-blog.png',
         description: 'A full-stack CMS-style blog site where users can create an account, publish articles, blog posts, & thoughts',
         technologies: 'JavaScript / NodeJS / MySQL',
         url: 'https://frozen-sierra-30429.herokuapp.com/',
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         title: 'Find-A-Story',
-        thumbnail: '/public/screenshots/find-a-story.png',
+        thumbnail: '/images/find-a-story.png',
         description: 'A collaborative project to develop a media database application using the Open Movie Database API & Google Books API',
         technologies: 'JavaScript / jQuery /  HTML / CSS',
         url: 'https://demivlkv.github.io/Find-A-Story',
@@ -29,7 +29,7 @@ const projects = [
     },
     {
         title: 'Weather Dashboard',
-        thumbnail: '/public/screenshots/weather-dashboard.png',
+        thumbnail: '/images/weather-dashboard.png',
         description: 'A weather dashboard application built with OpenWeather API',
         technologies: 'JavaScript / HTML / Bootstrap',
         url: 'https://demivlkv.github.io/weather-dashboard',
@@ -37,7 +37,7 @@ const projects = [
     },
     {
         title: 'Note Taker',
-        thumbnail: '/public/screenshots/note-taker.png',
+        thumbnail: '/images/note-taker.png',
         description: 'A simple note-taking application with the ability to create, save, update, and delete notes',
         technologies: 'JavaScript / NodeJS / ExpressJS',
         url: 'https://protected-dusk-42650.herokuapp.com/',
@@ -45,7 +45,7 @@ const projects = [
     },
     {
         title: 'Team Profile Generator',
-        thumbnail: '/public/screenshots/team-profile-generator.png',
+        thumbnail: '/images/team-profile-generator.png',
         description: 'A command-line application demonstrating OOP concepts to produce a team profile output in HTML',
         technologies: 'JavaScript / NodeJS / HTML / CSS',
         url: 'https://demivlkv.github.io/team-profile-generator/dist/index.html',
