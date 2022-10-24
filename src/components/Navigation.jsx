@@ -11,7 +11,7 @@ const Navigation = (props) => {
 
   return (
     <div>
-
+      {/* NAVBAR AT 768PX & ABOVE */}
       <ul className="hidden font-['Source_Code_Pro'] md:flex">
         {pages.map((page) => (
           <li className={
@@ -24,6 +24,7 @@ const Navigation = (props) => {
         ))}
       </ul>
 
+      {/* HAMBURGER MENU AT 768PX & LOWER */}
       <div onClick={toggleNavbar} className="md:hidden font-['Source_Code_Pro'] z-50">
         {!nav ? <FiMenu size={30} className="transition-all hover:text-[#f27c61] hover:cursor-pointer" /> : <FiX size={30} className="transition-all hover:text-[#f27c61] hover:cursor-pointer" />}
 
