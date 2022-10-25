@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.85439cfb.css",
-    "main.js": "/react-portfolio/static/js/main.6a5be2c9.js",
+    "main.css": "/react-portfolio/static/css/main.3d35c164.css",
+    "main.js": "/react-portfolio/static/js/main.58e21a86.js",
     "static/media/CV-Demi-Hayashi.pdf": "/react-portfolio/static/media/CV-Demi-Hayashi.c6350e96ab9a3163e940.pdf",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.07c53b648dee231f92ae.png",
     "index.html": "/react-portfolio/index.html",
-    "main.85439cfb.css.map": "/react-portfolio/static/css/main.85439cfb.css.map",
-    "main.6a5be2c9.js.map": "/react-portfolio/static/js/main.6a5be2c9.js.map"
+    "main.3d35c164.css.map": "/react-portfolio/static/css/main.3d35c164.css.map",
+    "main.58e21a86.js.map": "/react-portfolio/static/js/main.58e21a86.js.map"
   },
   "entrypoints": [
-    "static/css/main.85439cfb.css",
-    "static/js/main.6a5be2c9.js"
+    "static/css/main.3d35c164.css",
+    "static/js/main.58e21a86.js"
   ]
 }
