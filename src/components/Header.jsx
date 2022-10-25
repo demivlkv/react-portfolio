@@ -40,7 +40,7 @@ const Header = () => {
                         exit="exit"
                         transition={{ delay: 1, duration: 1 }}
                     >
-                        <a href="/"><img src={Logo} alt="DH Logo" style={{ width: '50px' }} /></a>
+                        <a href="/react-portfolio"><img src={Logo} alt="DH Logo" style={{ width: '50px' }} /></a>
                     </motion.div>
 
                     <motion.div

@@ -1,6 +1,6 @@
 # Project 20: React Challenge
 ## React Portfolio
-The intent for this project was to build an updated web developer portfolio utilizing React.js. This portfolio allows me to express myself as a full-stack software engineer to showcase my web applications and proficiencies.
+Being a web developer means being part of a community. The goal for this project was to build an updated web developer portfolio utilizing React.js. This rendition of my portfolio showcases my recent web applications and proficiencies as a full-stack software engineer.
 
 <p align="center">:sparkles: <a href="https://demivlkv.github.io/react-portfolio">Visit deployed application here</a> :sparkles:</p>
 
