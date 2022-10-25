@@ -104,7 +104,7 @@ const Project = () => {
                             style={{ y: 5, opacity: 0 }}
                             whileHover={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.5 }}
-                            className="flex rounded-lg justify-center items-center opacity-0 bg-gradient-to-t from-gray-900 via-[#8aa2a9] to-opacity-30 group-hover:opacity-90 absolute top-0 left-0 h-full w-full"
+                            className="flex rounded-lg justify-center items-center opacity-0 bg-gradient-to-t from-[#222222e8] via-[#8aa2a9f8] to-opacity-30 group-hover:opacity-90 absolute top-0 left-0 h-full w-full"
                         >
                         
                             <div class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
