@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3d35c164.css",
-    "main.js": "/react-portfolio/static/js/main.09c1f48b.js",
+    "main.css": "/react-portfolio/static/css/main.c80c98b9.css",
+    "main.js": "/react-portfolio/static/js/main.3cbb89ca.js",
+    "static/media/it-me.png": "/react-portfolio/static/media/it-me.35a737c12d67361e10ac.png",
     "static/media/CV-Demi-Hayashi.pdf": "/react-portfolio/static/media/CV-Demi-Hayashi.1cfaba0d0f2ede87732b.pdf",
-    "static/media/avatar.png": "/react-portfolio/static/media/avatar.07c53b648dee231f92ae.png",
     "index.html": "/react-portfolio/index.html",
-    "main.3d35c164.css.map": "/react-portfolio/static/css/main.3d35c164.css.map",
-    "main.09c1f48b.js.map": "/react-portfolio/static/js/main.09c1f48b.js.map"
+    "main.c80c98b9.css.map": "/react-portfolio/static/css/main.c80c98b9.css.map",
+    "main.3cbb89ca.js.map": "/react-portfolio/static/js/main.3cbb89ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d35c164.css",
-    "static/js/main.09c1f48b.js"
+    "static/css/main.c80c98b9.css",
+    "static/js/main.3cbb89ca.js"
   ]
 }
