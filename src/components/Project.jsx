@@ -100,22 +100,17 @@ const Project = () => {
 
                         <img src={process.env.PUBLIC_URL + `${project.thumbnail}`} alt={project.title} className="w-full" />
 
-                        <motion.div
-                            style={{ y: 5, opacity: 0 }}
-                            whileHover={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.5 }}
-                            className="flex rounded-lg justify-center items-center opacity-0 bg-gradient-to-t from-[#222222e8] via-[#8aa2a9f8] to-opacity-30 group-hover:opacity-90 absolute top-0 left-0 h-full w-full"
-                        >
+                        <div className="flex rounded-lg justify-center items-center transition-all duration-700 opacity-0 bg-gradient-to-t from-[#222222] via-[#5e7089] to-opacity-30 group-hover:opacity-90 absolute top-0 left-0 h-full w-full">
                         
                             <div class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
                                 <div class="flex-row text-center p-6">
-                                    <h3 className="text-[#2e4057] text-2xl font-semibold mb-2">
+                                    <h3 className="text-[#f27c61] text-2xl font-semibold drop-shadow-md mb-2">
                                         {project.title}
                                     </h3>
                                     <p className="text-slate-200 text-sm leading-snug drop-shadow-md">
                                         {project.description}
                                     </p>
-                                    <p className="text-[#a2d3be] text-xs font-['Source_Code_Pro'] py-2">
+                                    <p className="text-[#ddd] text-xs font-['Source_Code_Pro'] py-2">
                                         {project.technologies}
                                     </p>
                                     <div className="text-center">
@@ -128,7 +123,7 @@ const Project = () => {
                                     </div>
                                 </div>
                             </div>   
-                        </motion.div>
+                        </div>
                     </div>
                 </motion.div>
             ))}

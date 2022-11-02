@@ -9,7 +9,7 @@ import Navigation from './Navigation';
 import Logo from '../assets/logo.png';
 
 const Header = () => {
-    const [ currentPage, setCurrentPage ] = useState('about');
+    const [ currentPage, setCurrentPage ] = useState('home');
 
     // renders page accordingly via switch statement
     const renderPage = () => {

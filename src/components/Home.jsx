@@ -8,11 +8,11 @@ const Home = () => {
         <Animation>
             <div name="home" className="w-full h-screen">
                 <div className="max-w-screen-lg mx-auto px-16 flex flex-col justify-center h-full">
-                    <p className="text-3xl text-[#f27c61] font-['Source_Code_Pro']">Hello, my name is</p>
-                    <h1 className="text-5xl sm:text-7xl font-bold text-[#6f9283]">Demi Hayashi</h1>
+                    <p className="text-2xl text-[#ddd] font-['Source_Code_Pro']">Hello, my name is</p>
+                    <h1 className="text-5xl sm:text-7xl font-bold text-[#ff9d87bf]">Demi Hayashi</h1>
                     <h1 className="text-5xl sm:text-7xl font-bold text-[#5e7089]">A full-stack web developer</h1>
-                    <p className="text-[#8aa2a9] py-4 max-w-[700px]">
-                        I am a software engineer with a passion for technologies. I love to build and design things like web applications, <a href="https://www.tokio-ramen.com/" target="_blank" className="home">branding for local businesses</a>, and even <a href="https://cargocollective.com/demihayashi/Propagation" target="_blank" className="home">sculptures</a>.
+                    <p className="text-[#a4b5bb] py-4 max-w-[700px]">
+                        I am a software engineer living in Los Angeles with a passion for technologies. I love to build and design things like web applications, <a href="https://www.tokio-ramen.com/" target="_blank" className="home">branding for local businesses</a>, and even <a href="https://cargocollective.com/demihayashi/Propagation" target="_blank" className="home">sculptures</a>.
                     </p>
                     <div>
                         <a href={CV}>

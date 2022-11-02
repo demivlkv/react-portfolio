@@ -4,7 +4,7 @@ import CV from '../assets/CV-Demi-Hayashi.pdf';
 import { FiChevronsRight, FiFastForward } from 'react-icons/fi';
 
 const Resume = () => {
-    const listIcon = <FiFastForward className="inline-flex justify-center items-center pb-1" style={{ color: '#6f9283' }} size={15} />;
+    const listIcon = <FiFastForward className="inline-flex justify-center items-center pb-1" style={{ color: '#f27c61' }} size={15} />;
 
     return (
         <Animation>
@@ -32,7 +32,7 @@ const Resume = () => {
                 
                     <div className="w-[60%] grid grid-cols-2 sm:grid-cols-4 gap-8">
                         <div>
-                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#f27c61]">Front-end</h3>
+                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#ddd]">Front-end</h3>
                             {listIcon} ReactJS<br />
                             {listIcon} JavaScript<br />
                             {listIcon} HTML5<br />
@@ -41,7 +41,7 @@ const Resume = () => {
                             {listIcon} jQuery
                         </div>
                         <div>
-                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#f27c61]">Back-end</h3>
+                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#ddd]">Back-end</h3>
                             {listIcon} NodeJS<br />
                             {listIcon} ExpressJS<br />
                             {listIcon} PWAs<br />
@@ -50,12 +50,12 @@ const Resume = () => {
                             {listIcon} MVC
                         </div>
                         <div>
-                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#f27c61]">Database</h3>
+                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#ddd]">Database</h3>
                             {listIcon} MySQL<br />
                             {listIcon} MongoDB
                         </div>
                         <div>
-                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#f27c61]">Tools</h3>
+                            <h3 className="text-xl font-['Source_Code_Pro'] font-medium block text-[#ddd]">Tools</h3>
                             {listIcon} Git + GitHub<br />
                             {listIcon} Heroku<br />
                             {listIcon} Chrome Dev Tools<br />

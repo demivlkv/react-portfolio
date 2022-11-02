@@ -18,7 +18,7 @@ const Navigation = (props) => {
             props.currentPage.page === page ? 'mx-2 active font-semibold' : 'mx-2 font-semibold transition-all'
             } key={page} >
             <span onClick={() => props.setCurrentPage(page)} className={
-              props.currentPage === page ? 'mx-2 active font-semibold' : 'mx-2 font-medium hover:border-b-4 hover:border-[#6f9283] transition-all hover:text-white'
+              props.currentPage === page ? 'mx-2 active font-semibold' : 'mx-2 font-medium hover:border-b-4 hover:border-[#5e7089] transition-all hover:text-white'
             }>{page}</span>
           </li>
         ))}
@@ -34,7 +34,7 @@ const Navigation = (props) => {
               currentPage.page === page ? 'text-[#edf6f9]' : 'my-2 transition-all'
               } key={page} >
             <span onClick={() => props.setCurrentPage(page)} className={
-              props.currentPage === page ? 'mx-2 active font-semibold' : 'mx-2 font-semibold transition-all ease-in hover:border-b-4 hover:border-[#6f9283] hover:text-white'
+              props.currentPage === page ? 'mx-2 active font-semibold' : 'mx-2 font-semibold transition-all ease-in hover:border-b-4 hover:border-[#5e7089] hover:text-white'
             }>{page}</span>
             </li>
           ))}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Animation from './Animation';
-import Avatar from '../assets/avatar.png';
+import Avatar from '../assets/it-me.png';
 
 const About = () => {
   return (
@@ -22,10 +22,10 @@ const About = () => {
                     transition={{ delay: 0.5, duration: 1 }}
                     className="mx-auto max-w-lg pt-4 px-6"
                 >
-                    <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#1c2025] rounded opacity-70 grayscale-[50%] transition-all hover:opacity-100 hover:grayscale-0" style={{ width: '240px' }} />
+                    <img src={Avatar} alt="Demi's Avatar" class="shadow-lg shadow-[#1c2025] rounded opacity-70 grayscale-[100%] transition-all duration-500 hover:opacity-100 hover:grayscale-0" style={{ width: '300px' }} />
                 </motion.div>
                 <div>
-                    <p className="text-2xl text-[#f27c61] font-['Source_Code_Pro'] font-medium pb-6">
+                    <p className="text-2xl text-[#ddd] font-['Source_Code_Pro'] font-medium pb-6">
                         Nice to meet you, I'm Demi.
                     </p>
                     <p className="pb-6">

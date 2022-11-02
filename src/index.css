@@ -19,39 +19,41 @@
     }
 
     a {
-        @apply text-[#a2d3be];
+        @apply text-[#ff9d87];
         @apply transition-all ease-in;
+        @apply duration-200;
     }
 
     a:hover {
-        @apply text-[#f27c61];
-        @apply transition-all ease-in;
+        @apply text-white;
     }
     a.home {
-        @apply text-[#a2d3be];
+        @apply text-[#f27c61];
         @apply transition-all ease-in;
+        @apply duration-500;
     }
 
     a.home:hover {
         @apply text-white;
         @apply border-b-4;
-        @apply border-[#f27c61];
+        @apply border-[#5e7089];
         @apply transition-all ease-in;
     }
 
     h2 {
         @apply inline;
         @apply text-5xl;
-        @apply text-[#8aa2a9];
+        @apply text-[#ff9d87bf];
         @apply font-semibold;
         @apply border-b-4;
         @apply border-[#5e7089];
     }
 
     button {
-        @apply text-[#a2d3be];
+        @apply text-[#eeb1a3];
         @apply font-['Source_Code_Pro'];
         @apply transition-all ease-in;
+        @apply duration-300;
     }
 
     button:hover {
