@@ -4,6 +4,14 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
     {
+        title: 'Book Nook v2',
+        thumbnail: '/screenshots/book-nook-v2.png',
+        description: 'A collaborative project to build a MERN stack social media site based off the original Book Nook project',
+        technologies: 'MongoDB / ExpressJS / ReactJS / NoSQL',
+        url: 'https://book-nook2.herokuapp.com/',
+        github: 'https://github.com/demivlkv/book-nook-v2'
+    },
+    {
         title: 'Book Nook',
         thumbnail: '/screenshots/book-nook.png',
         description: 'A collaborative effort to provide a platform for all parents to discuss books for their young readers',
@@ -35,14 +43,14 @@ const projects = [
         url: 'https://demivlkv.github.io/weather-dashboard',
         github: 'https://github.com/demivlkv/weather-dashboard'
     },
-    {
-        title: 'Note Taker',
-        thumbnail: '/screenshots/note-taker.png',
-        description: 'A simple note-taking application with the ability to create, save, update, and delete notes',
-        technologies: 'JavaScript / NodeJS / ExpressJS',
-        url: 'https://protected-dusk-42650.herokuapp.com/',
-        github: 'https://github.com/demivlkv/note-taker'
-    },
+    // {
+    //     title: 'Note Taker',
+    //     thumbnail: '/screenshots/note-taker.png',
+    //     description: 'A simple note-taking application with the ability to create, save, update, and delete notes',
+    //     technologies: 'JavaScript / NodeJS / ExpressJS',
+    //     url: 'https://protected-dusk-42650.herokuapp.com/',
+    //     github: 'https://github.com/demivlkv/note-taker'
+    // },
     {
         title: 'Team Profile Generator',
         thumbnail: '/screenshots/team-profile-generator.png',
