@@ -7,6 +7,7 @@
 @layer base {
     body {
         @apply bg-[#2e4057];
+        /* @apply bg-[#242d39]; */
         @apply font-['Inter_Tight'];
         @apply text-[#edf6f9];
         @apply text-base;

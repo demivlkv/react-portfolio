@@ -4,6 +4,14 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
     {
+        title: 'Tokio Ramen',
+        thumbnail: '/screenshots/tokio-ramen.png',
+        description: 'A freelance project to revamp the website of Tokio Ramen - a local ramen business in Boynton Beach, FL',
+        technologies: 'GatsbyJS / Contentful / GraphQL / Tailwind CSS',
+        url: 'https://tokio-ramen.netlify.app/',
+        github: 'https://github.com/demivlkv/tokio-ramen'
+    },
+    {
         title: 'Book Nook v2',
         thumbnail: '/screenshots/book-nook-v2.png',
         description: 'A collaborative project to build a MERN stack social media site based off the original Book Nook project',
@@ -11,14 +19,14 @@ const projects = [
         url: 'https://book-nook2.herokuapp.com/',
         github: 'https://github.com/demivlkv/book-nook-v2'
     },
-    {
-        title: 'Book Nook',
-        thumbnail: '/screenshots/book-nook.png',
-        description: 'A collaborative effort to provide a platform for all parents to discuss books for their young readers',
-        technologies: 'JavaScript / NodeJS / MySQL',
-        url: 'https://booknook-stars.herokuapp.com/',
-        github: 'https://github.com/demivlkv/book-nook'
-    },
+    // {
+    //     title: 'Book Nook',
+    //     thumbnail: '/screenshots/book-nook.png',
+    //     description: 'A collaborative effort to provide a platform for all parents to discuss books for their young readers',
+    //     technologies: 'JavaScript / NodeJS / MySQL',
+    //     url: 'https://booknook-stars.herokuapp.com/',
+    //     github: 'https://github.com/demivlkv/book-nook'
+    // },
     {
         title: 'Tech Blog',
         thumbnail: '/screenshots/tech-blog.png',
