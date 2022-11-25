@@ -33,7 +33,7 @@ const Header = () => {
         <div>
             {/* NAVIGATION BAR */}
             <nav className="mb-[70px]">
-                <div className="fixed top-0 z-50 w-full flex justify-between items-center p-4 bg-[#2e4057]">
+                <div className="fixed top-0 z-50 w-full flex justify-between items-center p-4 bg-[#242d39]">
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
