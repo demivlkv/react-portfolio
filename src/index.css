@@ -2,15 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap');
 
 @layer base {
     body {
-        @apply bg-[#2e4057];
-        /* @apply bg-[#242d39]; */
-        @apply font-['Inter_Tight'];
+        /* @apply bg-[#2e4057]; */
+        @apply bg-[#242d39];
+        @apply font-['Jost'];
         @apply text-[#edf6f9];
         @apply text-base;
+        @apply font-light;
         @apply leading-loose;
     }
 
@@ -20,39 +22,41 @@
     }
 
     a {
-        @apply text-[#ff9d87];
+        @apply text-[#79fcca];
         @apply transition-all ease-in;
-        @apply duration-200;
+        @apply duration-300;
     }
 
     a:hover {
-        @apply text-white;
+        @apply text-[#5e7089];
     }
     a.home {
-        @apply text-[#f27c61];
+        @apply text-[#a6ffdd];
         @apply transition-all ease-in;
-        @apply duration-500;
+        @apply duration-300;
     }
 
     a.home:hover {
         @apply text-white;
         @apply border-b-4;
-        @apply border-[#5e7089];
-        @apply transition-all ease-in;
+        @apply border-[#2e4057];
     }
 
     h2 {
         @apply inline;
-        @apply text-5xl;
-        @apply text-[#ff9d87bf];
-        @apply font-semibold;
+        @apply text-4xl;
+        @apply text-[#79fcca];
+        @apply font-medium;
+        @apply tracking-widest;
+        @apply uppercase;
         @apply border-b-4;
-        @apply border-[#5e7089];
+        @apply border-[#2e4057];
     }
 
     button {
-        @apply text-[#eeb1a3];
+        @apply text-[#a6ffdd];
         @apply font-['Source_Code_Pro'];
+        @apply font-normal;
         @apply transition-all ease-in;
         @apply duration-300;
     }
@@ -63,5 +67,5 @@
 }
 
 .active {
-    color: #f27c61 !important;
+    color: #79fcca !important;
 }
