@@ -112,15 +112,15 @@ const Project = () => {
                     variants={item}
                     className="relative group"
                 >
-                    <div className="max-w-md h-max aspect-auto overflow-hidden rounded-lg opacity-80 hover:opacity-100 transition-all shadow-lg shadow-[#1c2025] cursor-pointer">
+                    <div className="max-w-md h-max aspect-auto overflow-hidden rounded-lg opacity-90 hover:opacity-100 transition-all shadow-lg shadow-[#1c2025] cursor-pointer">
 
                         <img src={process.env.PUBLIC_URL + `${project.thumbnail}`} alt={project.title} className="w-full" />
 
-                        <div className="flex rounded-lg justify-center items-center transition-all duration-700 opacity-0 bg-gradient-to-t from-[#222222] via-[#5e7089] to-opacity-30 group-hover:opacity-90 absolute top-0 left-0 h-full w-full">
+                        <div className="flex rounded-lg justify-center items-center transition-all duration-700 opacity-0 bg-gradient-to-t from-[#222222] via-[#2e4057] to-opacity-30 group-hover:opacity-90 absolute top-0 left-0 h-full w-full">
                         
                             <div class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
                                 <div class="flex-row text-center p-6">
-                                    <h3 className="text-[#f27c61] text-2xl font-semibold drop-shadow-md mb-2">
+                                    <h3 className="text-[#79fcca] text-2xl font-medium uppercase drop-shadow-md mb-2">
                                         {project.title}
                                     </h3>
                                     <p className="text-slate-200 text-sm leading-snug drop-shadow-md">
@@ -131,10 +131,10 @@ const Project = () => {
                                     </p>
                                     <div className="text-center">
                                         <a href={project.url} target="_blank">
-                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#f27c61] text-white hover:text-[#2e4057]"><FiExternalLink size={20} /></button>
+                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-white hover:text-[#2e4057]"><FiExternalLink size={20} /></button>
                                         </a>
                                         <a href={project.github} target="_blank">
-                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#f27c61] text-white hover:text-[#2e4057]"><FiGithub size={20} /></button>
+                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-white hover:text-[#2e4057]"><FiGithub size={20} /></button>
                                         </a>
                                     </div>
                                 </div>
