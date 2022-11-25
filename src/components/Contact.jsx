@@ -50,25 +50,25 @@ const Contact = () => {
 
                         <div className="max-w-[75%] w-full mx-auto grid grid-cols-2 gap-2">
                             <div className="inline-flex items-center">
-                                <FiMapPin style={{ color: '#f27c61' }} size={20} />&nbsp;Location
+                                <FiMapPin style={{ color: '#a6ffdd' }} size={20} />&nbsp;Location
                             </div>
                             <div className="inline-flex justify-end items-center">
                                 : Los Angeles, CA
                             </div>
                             <div className="inline-flex items-center">
-                                <FiAtSign style={{ color: '#f27c61' }} size={20} />&nbsp;E-mail
+                                <FiAtSign style={{ color: '#a6ffdd' }} size={20} />&nbsp;E-mail
                             </div>
                             <div className="inline-flex justify-end items-center">
                                 :&nbsp;<a href="mailto:hayashi.demi@gmail.com">hayashidemi@gmail.com</a>
                             </div>
                             <div className="inline-flex items-center">
-                                <FiGithub style={{ color: '#f27c61' }} size={20} />&nbsp;GitHub
+                                <FiGithub style={{ color: '#a6ffdd' }} size={20} />&nbsp;GitHub
                             </div>
                             <div className="inline-flex justify-end items-center">
                                 :&nbsp;<a href="https://github.com/demivlkv" target="_blank">@demivlkv</a>
                             </div>
                             <div className="inline-flex items-center">
-                                <IoMdGlobe style={{ color: '#f27c61' }} size={20} />&nbsp;Languages
+                                <IoMdGlobe style={{ color: '#a6ffdd' }} size={20} />&nbsp;Languages
                             </div>
                             <div className="inline-flex justify-end items-center">
                                 : English, Japanese
@@ -81,13 +81,13 @@ const Contact = () => {
                         <form method="POST" action={formUrl} id="contact-form" className="flex flex-col justify-center max-w-[600px] w-full">
                             <div class="w-[80%] mx-auto">
                                 <label className="block text-[#ddd] font-['Source_Code_Pro'] font-medium">Name:</label>
-                                <input type="text" defaultValue={name} onBlur={handleChange} name="name" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
+                                <input type="text" defaultValue={name} onBlur={handleChange} name="name" className="w-full my-2 p-2 rounded bg-[#2e405759] border border-[#5e7089c2]" />
 
                                 <label className="block text-[#ddd] font-['Source_Code_Pro'] font-medium">E-mail:</label>
-                                <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
+                                <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="w-full my-2 p-2 rounded bg-[#2e405759] border border-[#5e7089c2]" />
 
                                 <label className="block text-[#ddd] font-['Source_Code_Pro'] font-medium">Message:</label>
-                                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="4" className="w-full my-2 p-2 rounded bg-[#5e708964] border border-[#5e7089]" />
+                                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="4" className="w-full my-2 p-2 rounded bg-[#2e405759] border border-[#5e7089c2]" />
 
                                 {errorMessage && (
                                     <div>
@@ -95,7 +95,7 @@ const Contact = () => {
                                     </div>
                                 )}
 
-                                <button type="submit" className="group w-[130px] mx-auto flex items-center my-2 pl-6 py-2 border-2 border-gray-300 rounded hover:bg-[#f27c611e] hover:border-[#eeb1a3]">
+                                <button type="submit" className="group w-[130px] mx-auto flex items-center my-2 pl-6 py-2 border-2 border-gray-300 rounded hover:bg-[#a6ffdd1e] hover:border-[#a6ffdd]">
                                     Submit
                                     <span className="group-hover:ml-1 duration-300">
                                         <FiChevronsRight className="ml-2" />
