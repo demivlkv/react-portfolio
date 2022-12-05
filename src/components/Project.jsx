@@ -16,7 +16,7 @@ const projects = [
         thumbnail: '/screenshots/book-nook-v2.png',
         description: 'A collaborative project to build a MERN stack social media site based off the original Book Nook project',
         technologies: 'MongoDB / ExpressJS / ReactJS / NoSQL',
-        url: 'https://book-nook2.herokuapp.com/',
+        url: 'https://book-nook-v2.herokuapp.com/',
         github: 'https://github.com/demivlkv/book-nook-v2'
     },
     // {
