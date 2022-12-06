@@ -131,10 +131,10 @@ const Project = () => {
                                     </p>
                                     <div className="text-center">
                                         <a href={project.url} target="_blank">
-                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#79fcca] hover:bg-[#5e7089] text-[#2e4057] hover:text-white"><FiExternalLink size={20} /></button>
+                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-[#2e4057] hover:text-white"><FiExternalLink size={20} /></button>
                                         </a>
                                         <a href={project.github} target="_blank">
-                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#79fcca] hover:bg-[#5e7089] text-[#2e4057] hover:text-white"><FiGithub size={20} /></button>
+                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-[#2e4057] hover:text-white"><FiGithub size={20} /></button>
                                         </a>
                                     </div>
                                 </div>
