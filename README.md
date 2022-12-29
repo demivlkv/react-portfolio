@@ -18,7 +18,7 @@ Being a web developer means being part of a community. The goal for this project
 - [Getform.io](https://getform.io/)
 
 ## Installation
-1. To install this application, `git clone` this repository, or download the `.zip` file in the dropdown after clicking the green ‘Code’ button at the top of this repository—as long as it is in your local branch.
+1. To install this application, `git clone` this repository, or download the `.zip` file in the dropdown after clicking the ‘Code’ button at the top of this repository—as long as it is in your local branch.
 2. Ensure Node.js is installed in your operating system.
 3. Install ***all*** of the npm packages listed above via command-line in terminal by entering `npm install`.
 4. Sign up for a free [Getform.io](https://getform.io/) account. Then create a `.env` file in the root directory of the application, and enter the following:
