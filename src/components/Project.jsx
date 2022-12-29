@@ -4,6 +4,14 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
     {
+        title: 'Trip Tide',
+        thumbnail: '/screenshots/trip-tide.png',
+        description: 'A MERN + GraphQL stack travel application intended to be a one-stop shop for travel enthusiasts. Users can discuss all-things travel.',
+        technologies: 'MongoDB / ExpressJS / ReactJS / NodeJS',
+        url: 'https://trip-tide.herokuapp.com/',
+        github: 'https://github.com/demivlkv/trip-tide'
+    },
+    {
         title: 'Tokio Ramen',
         thumbnail: '/screenshots/tokio-ramen.png',
         description: 'A freelance project to revamp the website of Tokio Ramen - a local ramen business in Boynton Beach, FL',
@@ -15,7 +23,7 @@ const projects = [
         title: 'Book Nook v2',
         thumbnail: '/screenshots/book-nook-v2.png',
         description: 'A collaborative project to build a MERN stack social media site based off the original Book Nook project',
-        technologies: 'MongoDB / ExpressJS / ReactJS / NoSQL',
+        technologies: 'MongoDB / ExpressJS / ReactJS / NodeJS',
         url: 'https://book-nook-v2.herokuapp.com/',
         github: 'https://github.com/demivlkv/book-nook-v2'
     },
@@ -50,22 +58,6 @@ const projects = [
         technologies: 'JavaScript / HTML / Bootstrap',
         url: 'https://demivlkv.github.io/weather-dashboard',
         github: 'https://github.com/demivlkv/weather-dashboard'
-    },
-    // {
-    //     title: 'Note Taker',
-    //     thumbnail: '/screenshots/note-taker.png',
-    //     description: 'A simple note-taking application with the ability to create, save, update, and delete notes',
-    //     technologies: 'JavaScript / NodeJS / ExpressJS',
-    //     url: 'https://protected-dusk-42650.herokuapp.com/',
-    //     github: 'https://github.com/demivlkv/note-taker'
-    // },
-    {
-        title: 'Team Profile Generator',
-        thumbnail: '/screenshots/team-profile-generator.png',
-        description: 'A command-line application demonstrating OOP concepts to produce a team profile output in HTML',
-        technologies: 'JavaScript / NodeJS / HTML / CSS',
-        url: 'https://demivlkv.github.io/team-profile-generator/dist/index.html',
-        github: 'https://github.com/demivlkv/team-profile-generator'
     }
 ];
 
@@ -131,10 +123,10 @@ const Project = () => {
                                     </p>
                                     <div className="text-center">
                                         <a href={project.url} target="_blank">
-                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-[#2e4057] hover:text-white"><FiExternalLink size={20} /></button>
+                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-white hover:text-[#2e4057]"><FiExternalLink size={20} /></button>
                                         </a>
                                         <a href={project.github} target="_blank">
-                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-[#2e4057] hover:text-white"><FiGithub size={20} /></button>
+                                            <button className="mx-2 w-[50px] h-[50px] inline-flex justify-center items-center rounded-full bg-[#5e7089] hover:bg-[#79fcca] text-white hover:text-[#2e4057]"><FiGithub size={20} /></button>
                                         </a>
                                     </div>
                                 </div>
