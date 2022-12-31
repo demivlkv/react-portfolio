@@ -12,6 +12,14 @@ const projects = [
         github: 'https://github.com/demivlkv/trip-tide'
     },
     {
+        title: 'Sound Stream',
+        thumbnail: '/screenshots/soundstream.png',
+        description: 'A simple Spotify clone',
+        technologies: 'ReactJS / ExpressJS / TailwindCSS / Spotify API',
+        url: 'https://soundstream.herokuapp.com/',
+        github: 'https://github.com/demivlkv/soundstream'
+    },
+    {
         title: 'Tokio Ramen',
         thumbnail: '/screenshots/tokio-ramen.png',
         description: 'A freelance project to revamp the website of Tokio Ramen - a local ramen business in Boynton Beach, FL',
